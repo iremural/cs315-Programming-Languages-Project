@@ -1,0 +1,90 @@
+PROGRAM ~Program1
+NJOY
+/*this program is written in order to test the lexical analyzer of NJOY programming language */
+BOOL a = TRUE;
+BOOL hello = TRUE;
+STRING s;
+run()
+NJOY
+BOOL b  = FALSE;
+BOOL t2ruthOfaAndB1 = a AND b;
+BOOL c = t2ruthOfaAndb1;
+BOOL d = FALSE;
+BOOL e = TRUE;
+BOOL trial = a AND b OR NOT(c) OR (d IFF e) IMPLIES FALSE; 
+
+STRING a23bjfAs3;
+STRING course = "CS315 PROJECT 2";
+
+STRING @deniz = {"hello" : "HI GUYS", "abc" : course};
+OUT(@deniz["hello"]);
+
+@deniz["abc"] = "How are you?"; 
+
+CONST BOOL #try = FALSE;
+
+BOOL input;
+IF(a IMPLIES b)
+NJOY
+
+BOOL trial2  = TRUE;
+END
+OUT(trial2); 
+
+BOOL truth10 = TRUE;
+NJOY_WHILE(truth10)
+NJOY
+OUT("Enter TRUE or FALSE");
+truth10 = IN();
+END
+
+BOOL enjoy = FALSE;
+DO
+NJOY
+
+IF(a OR b)
+NJOY
+BOOL b = FALSE;
+input = IN();
+enjoy = TRUE;
+STRING baris = "HI BARIS";
+END
+ELSE 
+NJOY
+enjoy = FALSE;
+STOP_NJOY;
+END
+
+END NJOY_WHILE(NOT(enjoy));
+
+anotherPredicate(enjoy, course );
+
+RETURN TRUE;
+END 
+
+anotherPredicate(BOOL exist, STRING str)
+NJOY
+OUT(str);
+CONST BOOL #truth = FALSE;
+IF( exist OR FALSE) 
+NJOY
+BOOL def = TRUE;
+IF(exist)
+NJOY
+BOOL irem = FALSE;
+END
+ELSE 
+NJOY 
+def = TRUE IFF def AND hello;
+END 
+RETURN def;
+END
+ELSE
+NJOY
+BOOL cde = TRUE;
+RETURN TRUE;
+END
+RETURN a AND b;
+END
+
+END_PROGRAM
