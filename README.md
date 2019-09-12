@@ -1,6 +1,6 @@
 # CS315 - Programming Languages
  
- Designed a new programming language NJOY for propostional calculus. 
+ Designed a new programming language NJOY for propositional calculus. 
  Implemented a lexical analyzer and a parser by using yacc tool.
  
  Design of the language in BNF form and the description of each language component can be found below: 
